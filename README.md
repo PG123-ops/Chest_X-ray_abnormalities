@@ -177,6 +177,7 @@ Model performance should be reported using the results obtained from the final, 
 
 | Model | Task | Evaluation metrics |
 |---|---|---|
+|EfficientNet-B0|Multi-label classification| Accuracy, Precision, Recall, Macro F1, ROC-AUC |
 | ResNet50 | Multi-label classification | Accuracy, Precision, Recall, Macro F1, ROC-AUC |
 | YOLOv8n | Object detection | Precision, Recall, mAP@0.5, mAP@0.5:0.95 |
 
@@ -209,11 +210,9 @@ Kaggle's working directory is temporary. Download or export important checkpoint
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/PG123-ops/Chest_X-ray_abnormalities.git
+cd Chest_X-ray_abnormalities
 ```
-
-Replace the URL with the actual repository address.
 
 ### 2. Install Dependencies
 
